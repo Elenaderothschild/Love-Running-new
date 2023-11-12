@@ -193,6 +193,7 @@ hr {
 /* Gallery page */
 #photos img {
     width: 100%;
+    line-height: 1em;
 }
 
 #photos {
@@ -213,6 +214,12 @@ hr {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (576px and larger) #photos {
+    column-count: 2;
+    column-gap: 0;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -279,6 +286,11 @@ hr {
     #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
     }
 }
 
