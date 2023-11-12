@@ -299,6 +299,11 @@ hr {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
 }
 
 @media screen and (min-width: 1200px) {
